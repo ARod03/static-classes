@@ -21,7 +21,7 @@ class NameParserTest {
     public void format_AllPieces_should_return_AllPiecesInProperFormat() {
 
         //arrange
-        String result = NameParser.format2("Mr.", "Adrian", "O", "Rodriguez", "PHD");
+        String result = NameParser.format2("Mr.", "Adrian", "O.", "Rodriguez", "PHD");
         String expected = "Rodriguez, Mr. Adrian O., PHD";
 
         //assertion
